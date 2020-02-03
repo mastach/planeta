@@ -4,7 +4,7 @@ galaktyka = []
 
 
 # Planeta centralna (pseudo-gwiazda)
-galaktyka.append(Planeta("Planeta x", (0, 0), 0, 300))
+galaktyka.append(Planeta("Planeta x", (10, 10), 0, 300))
 
 # Planety pierwszego rzędu
 for i in galaktyka[0].wyznacz_wspolrzedne_sasiadow():
